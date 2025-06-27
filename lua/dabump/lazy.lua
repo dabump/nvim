@@ -14,11 +14,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 
 vim.opt.rtp:prepend(lazypath)
-vim.filetype.add({
-  extension = {
-    ["http"] = "http",
-  },
-})
 
 require("lazy").setup({
   spec = {
@@ -51,7 +46,6 @@ require("lazy").setup({
       disabled_plugins = {
         "gzip",
         "tarPlugin",
-        "tohtml",
         "tutor",
         "zipPlugin",
       },

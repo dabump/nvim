@@ -7,6 +7,7 @@ return {
       "bash",
       "diff",
       "html",
+      "css",
       "javascript",
       "jsdoc",
       "json",
@@ -27,6 +28,7 @@ return {
       "vimdoc",
       "xml",
       "yaml",
+      "rust",
     },
     incremental_selection = {
       enable = true,
